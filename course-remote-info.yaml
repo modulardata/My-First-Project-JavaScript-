@@ -13,7 +13,7 @@ stages:
     is_completed: true
   - id: 2496
     step: 41551
-    is_completed: false
+    is_completed: true
 topics:
   0:
     - title: Introduction to JavaScript
