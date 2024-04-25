@@ -95,26 +95,8 @@ files:
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/41550#comment
 check_profile: hyperskill_node_javascript
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Your program should output 8 lines, but 9 lines were found.
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Earned amount:
-    Bubblegum: $202
-    Toffee: $118
-    Ice cream: $2250
-    Milk chocolate: $1680
-    Doughnut: $1075
-    Pancake: $80
-
-    Income: $5405
-    Staff expenses:
-  time: "Thu, 25 Apr 2024 04:53:41 UTC"
+  message: <html>Correct solution</html>
+  time: "Thu, 25 Apr 2024 05:55:06 UTC"
 record: 2

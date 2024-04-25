@@ -1,18 +1,27 @@
 const input = require('sync-input');
 
-// We have imported the 'sync-input' package for you.
-// This package allows you to get user input.
-// Like so:
-// let name = input("Type your name: ");
-// let age = Number(input("Type your age: "));
-// You will need it in later stages.
+const earnings = {
+    'Bubblegum': 202,
+    'Toffee': 118,
+    'Ice cream': 2250,
+    'Milk chocolate': 1680,
+    'Doughnut': 1075,
+    'Pancake': 80
+};
 
+const calculateIncome = (items) => Object.values(items).reduce((a, b) => a + b);
 
+const printIncomeList = (obj) => {
+    for (const [key, value] of Object.entries(obj)) {
+        console.log(`${key}: $${value}`);
+    }
+};
 
-console.log(`Prices:
-Bubblegum: $2
-Toffee: $0.2
-Ice cream: $5
-Milk chocolate: $4
-Doughnut: $2.5
-Pancake: $3.2`);
+const printIncome = (income) => console.log(`
+Income: $${income}`);
+
+console.log('Earned amount:');
+
+printIncomeList(earnings);
+
+printIncome(calculateIncome(earnings));
